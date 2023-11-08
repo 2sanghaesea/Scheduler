@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/calendar_gradient">
+
+   <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+       android:id="@+id/calendarView"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.274"
+       tools:ignore="MissingConstraints" />
+
+   <TextView
+       android:id="@+id/textView3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="날짜를 선택해보세요!"
+       android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+       android:textColor="#020202"
+       android:textSize="20sp"
+       app:layout_constraintBottom_toTopOf="@+id/calendarView"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <ImageButton
+       android:id="@+id/ListBtn"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="#00FFFFFF"
+       app:layout_constraintBottom_toTopOf="@+id/calendarView"
+       app:layout_constraintEnd_toStartOf="@+id/textView3"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:srcCompat="@drawable/img_6" />
+
+   <ImageView
+       android:id="@+id/imageView3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.915"
+       app:srcCompat="@drawable/cute" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

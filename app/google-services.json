@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "877758128780",
+    "project_id": "killerwhales-675f8",
+    "storage_bucket": "killerwhales-675f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877758128780:android:8bde1f7b85286ee1f251a9",
+        "android_client_info": {
+          "package_name": "com.example.realman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877758128780-57lf25spbas0cjgi6us35im0vekeqb11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1PBWRlIUH26CUVuBh5juZRWrh2sgG6XY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877758128780-57lf25spbas0cjgi6us35im0vekeqb11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
